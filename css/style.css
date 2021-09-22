@@ -31,14 +31,14 @@ nav div{
   display: inline-block
 }
 
-.logo img{
+.logo{
   width: 80px;
   padding: 15px 0;
   vertical-align: middle;
 }
 
 /* menu */
-ul{
+.menu ul{
   margin: 0 100px;
 }
 
@@ -108,9 +108,6 @@ ul{
 
 .jumbotron .content button{
   margin-top: 20px;
-  /* border: none;
-  padding: 10px 15px;
-  border-radius: 20px; */
 }
 
 button.download{
@@ -137,6 +134,7 @@ main{
 }
 
 .item{
+  position: relative;
   width: 70%;
   margin: 0 auto;
 }
@@ -185,6 +183,7 @@ main{
 .bottom-main{
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .bottom-main .item button{
@@ -202,7 +201,77 @@ main{
   padding-top: 30px;
   padding-left: 50px;
 }
+/* /MAIN  */
 
-/* MAIN  */
+/* FOOTER  */
+footer{
+  background-color: #23272A;
+}
 
+.social{
+  vertical-align: top;
+  display: inline-block;
+  width: 211px;
+  padding-top: 50px;
+  margin-right: 50px;
+}
+
+.social h3{
+  font-size: 20px;
+  color: #7289DA;
+}
+
+.language{
+  color: white;
+  margin-top: 10px;
+}
+
+.language img{
+  width: 20px;
+}
+
+.language span{
+  font-size: 12px;
+}
+
+.list{
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.list ul{
+  display: inline-block;
+  padding-right: 70px;
+}
+
+.list li{
+  list-style: none;
+}
+
+.list li:first-child{
+  color: #7289DA;
+}
+
+.list li a{
+  text-decoration: none;
+  color: white;
+}
+
+.list li a:hover{
+  color: rgb(146, 118, 192);
+}
+
+.bottom-footer{
+  padding-bottom: 100px;
+}
+
+.footer-button{
+  position: absolute;
+  right: 0;
+  bottom: 110px;
+  background-color: #8EA1E2;
+  font-size: 10px;
+}
 
