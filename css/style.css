@@ -9,8 +9,15 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* utility */
+button{
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+}
+
 /**** HEADER  ****/
-header{
+.background-nav{
   background-color: #3161E0;
 }
 
@@ -52,16 +59,14 @@ ul{
 }
 
 .button-accedi{
-  background-color: white;
-  border: none;
   font-size: 9px;
-  border-radius: 20px;
-  padding: 8px;
+  background-color: white;
 }
 
 .button-accedi:hover{
   cursor: pointer;
-  background-color: lightgray;
+  background-color: gray;
+  color: white;
   box-shadow: 1px 1px 2px blue;
 }
 /* /nav bar  */
@@ -103,9 +108,9 @@ ul{
 
 .jumbotron .content button{
   margin-top: 20px;
-  border: none;
+  /* border: none;
   padding: 10px 15px;
-  border-radius: 20px;
+  border-radius: 20px; */
 }
 
 button.download{
@@ -116,5 +121,88 @@ button.open{
   background-color: #23272A;
   color: white;
 }
+
+.jumbotron .content button:hover{
+  cursor: pointer;
+  background-color: grey;
+  box-shadow: 1px 1px 2px blue;
+  color: white;
+}
+
 /* /jumbotron  */
+
+/* MAIN  */
+main{
+  position: relative;
+}
+
+.item{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top-main{
+  width: 450px;
+  vertical-align: top;
+}
+
+.text.left, .text.right{
+  display: inline-block;
+  width: 218px;
+}
+
+.text h3{
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.text p{
+  text-align: justify;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.second-section{
+  margin-top: 80px;
+}
+
+.text.right{
+  margin-right: 100px;
+}
+
+.text.left{
+  margin-left: 100px;
+}
+
+.third-section, .forth-section{
+  margin-top: 80px;
+}
+
+.forth-section .item .text h3, .forth-section .item .text p {
+  text-align: center;
+}
+
+.bottom-main{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bottom-main .item button{
+  background-color: #8EA1E2;
+  color: white;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
+.bottom-main .item h4{
+  font-size: 22px;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+/* MAIN  */
+
 
