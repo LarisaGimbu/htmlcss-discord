@@ -1,3 +1,4 @@
+/**** GENERAL ****/
 *{
   margin: 0;
   padding: 0;
@@ -8,10 +9,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/**** HEADER  ****/
 header{
   background-color: #3161E0;
 }
 
+/* nav bar */
 nav{
   width: 60%;
   margin: 0 auto;
@@ -27,6 +30,7 @@ nav div{
   vertical-align: middle;
 }
 
+/* menu */
 ul{
   margin: 0 100px;
 }
@@ -60,3 +64,57 @@ ul{
   background-color: lightgray;
   box-shadow: 1px 1px 2px blue;
 }
+/* /nav bar  */
+
+/* jumbotron  */
+.jumbotron{
+  position: relative;
+  background-image: url(../img/jumbo.png);
+  width: 100%;
+  height: 365px;
+  background-size: cover;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jumbotron h2, .jumbotron p{
+  color: white;
+  text-align: center;
+}
+
+.jumbotron h2{
+  font-size: 3vw;
+  margin-bottom: 25px;
+}
+
+.jumbotron p{
+  font-size: 1vw;
+  width: 500px;
+}
+
+.jumbo-buttons{
+  margin-left: 18%
+}
+
+.jumbotron .content button{
+  margin-top: 20px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+button.download{
+  background-color: white;
+}
+
+button.open{
+  background-color: #23272A;
+  color: white;
+}
+/* /jumbotron  */
+
